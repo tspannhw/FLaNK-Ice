@@ -11,3 +11,6 @@ Apache Iceberg - Cloud Data Lakehouse
 * https://medium.com/cloudera-inc/ingest-from-iceberg-tables-with-cloudera-dataflow-2dc3bb30096f
 * https://docs.cloudera.com/cdw-runtime/1.5.0/iceberg-how-to/topics/iceberg-data-types.html
 * https://docs.cloudera.com/cdw-runtime/1.5.0/iceberg-overview/topics/dw-pvc-iceberg-overview.html
+* https://github.com/apache/hive/tree/master/packaging/src/docker
+* https://iceberg.apache.org/hive-quickstart/
+* https://iceberg.apache.org/docs/latest/hive/#global-hive-catalog
