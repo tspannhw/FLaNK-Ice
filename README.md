@@ -2,6 +2,15 @@
 Apache Iceberg - Cloud Data Lakehouse
 
 
+### URL
+
+````
+
+jdbc:impala://server:443/;ssl=1;transportMode=http;httpPath=oss-kudu-demo/cdp-proxy-api/impala;AuthMech=3;
+com.cloudera.impala.jdbc.Driver
+
+
+````
 
 
 ### References
