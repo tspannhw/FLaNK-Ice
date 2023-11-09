@@ -11,13 +11,13 @@ ROW FORMAT SERDE
 STORED BY 
   'org.apache.iceberg.mr.hive.HiveIcebergStorageHandler' 
 
+	-- worked for ice
 CREATE TABLE default.traveladvisory
 (
   TITLE string,
 	PUBDATE string ,
 	LINK string,
 	GUID string ,
-	ADVISORYID string ,
 	DOMAIN string ,
 	CATEGORY string,
 	DESCRIPTION string,
