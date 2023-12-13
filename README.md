@@ -9,9 +9,19 @@ Apache Iceberg - Cloud Data Lakehouse
 jdbc:impala://server:443/;ssl=1;transportMode=http;httpPath=oss-kudu-demo/cdp-proxy-api/impala;AuthMech=3;
 com.cloudera.impala.jdbc.Driver
 
+jdbc:hive2://hs2-tspanniceberg.dw-se-sandboxx-aws.a465-9q4k.cloudera.site/default;transportMode=http;httpPath=cliservice;socketTimeout=60;ssl=true;auth=browser;
+
 
 ````
 
+### Iceberg Table
+
+````
+CREATE TABLE customer (id int, name string, created_at timestamp)
+PARTITIONED BY (country_code string)
+STORED BY ICEBERG;
+
+````
 
 ### References
 
